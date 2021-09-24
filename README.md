@@ -20,5 +20,5 @@ npm run start
 npm run build
 ```
 
-After building the app, navigate to the `build/static/css folder` and remove the css filename hashes if desired. 
+After building the app, navigate to the `build/static/css` folder and remove the css filename hashes if desired. Upload the `build` folder to your site and edit the `src` and `href` base urls to point to your site. 
 
