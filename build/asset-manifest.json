@@ -1,25 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.f01eaaa2.chunk.css",
-    "main.js": "./static/js/main.a4a5a9ed.chunk.js",
-    "main.js.map": "./static/js/main.a4a5a9ed.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.dfd1988f.js",
-    "runtime-main.js.map": "./static/js/runtime-main.dfd1988f.js.map",
-    "static/css/2.fe708519.chunk.css": "./static/css/2.fe708519.chunk.css",
-    "static/js/2.a837b3a2.chunk.js": "./static/js/2.a837b3a2.chunk.js",
-    "static/js/2.a837b3a2.chunk.js.map": "./static/js/2.a837b3a2.chunk.js.map",
-    "static/js/3.ae8ddd1a.chunk.js": "./static/js/3.ae8ddd1a.chunk.js",
-    "static/js/3.ae8ddd1a.chunk.js.map": "./static/js/3.ae8ddd1a.chunk.js.map",
+    "main.css": "./static/css/main.f1761507.css",
+    "main.js": "./static/algopay.js",
+    "main.js.map": "./static/algopay.js.map",
+    "static/js/1.04baac02.chunk.js": "./static/js/1.04baac02.chunk.js",
+    "static/js/1.04baac02.chunk.js.map": "./static/js/1.04baac02.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/2.fe708519.chunk.css.map": "./static/css/2.fe708519.chunk.css.map",
-    "static/css/main.f01eaaa2.chunk.css.map": "./static/css/main.f01eaaa2.chunk.css.map",
-    "static/js/2.a837b3a2.chunk.js.LICENSE.txt": "./static/js/2.a837b3a2.chunk.js.LICENSE.txt"
+    "static/algopay.js.LICENSE.txt": "./static/algopay.js.LICENSE.txt",
+    "static/css/main.f1761507.css.map": "./static/css/main.f1761507.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.dfd1988f.js",
-    "static/css/2.fe708519.chunk.css",
-    "static/js/2.a837b3a2.chunk.js",
-    "static/css/main.f01eaaa2.chunk.css",
-    "static/js/main.a4a5a9ed.chunk.js"
+    "static/css/main.f1761507.css",
+    "static/algopay.js"
   ]
 }
