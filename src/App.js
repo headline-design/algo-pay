@@ -17,7 +17,7 @@ import {
 var indexerURL = "https://algoexplorerapi.io/idx2/v2/accounts/";
 const myAlgoWallet = Pipeline.init();
 
-var index = localStorage.getItem("index");
+var index = parseInt(localStorage.getItem("index"));
 var amount = localStorage.getItem("amount");
 var note = localStorage.getItem("note");
 var recipient = localStorage.getItem("recipient");
