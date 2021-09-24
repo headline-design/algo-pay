@@ -6,7 +6,7 @@ A project to directly embed an Algorand React app in standard html via `<script>
 
 ```html
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <link href="https://unpkg.com/algo-pay@0.1.1/build/static/css/algopay.css" rel="stylesheet">
+    <link href="https://unpkg.com/algo-pay@0.1.3/build/static/css/algopay.css" rel="stylesheet">
     <div id="root"></div>
     <script>
         localStorage.setItem("index", 0);
@@ -14,7 +14,7 @@ A project to directly embed an Algorand React app in standard html via `<script>
         localStorage.setItem("note", "Your note goes here.");
         localStorage.setItem("recipient", "LMKFQIPL3VQCZGGFK4WZ7FPCQWLNBTJQ3UWSTA7D7QZSPJTZQKTDVT7WG4");
     </script>
-    <script src="https://unpkg.com/algo-pay@0.1.1/build/static/algopay.js"></script>
+    <script src="https://unpkg.com/algo-pay@0.1.3/build/static/algopay.js"></script>
 ```
 
 ## Modifying the widget
