@@ -19,6 +19,8 @@ A project to directly embed an Algorand React app in standard html via `<script>
     <script src="https://unpkg.com/algo-pay@0.1.3/build/static/algopay.js"></script>
 ```
 
+NOTE: Ensure that the version codes in the CSS and JavaScript `src=` urls match the latest version code of this project.
+
 ## Modifying the widget
 
 ```bash
