@@ -51,6 +51,10 @@ svg.algosend-icon {
   display: none;
 }
 
+.pipeline-rmd-icon {
+    color: #3f3d4b !important;
+}
+
 .algosend-outline {
   color: #fff !important;
   background: #1c1ce1 !important;
