@@ -80,7 +80,7 @@ svg.algosend-icon {
 }
 
 .algopay:before {
-  --main-color: #fff;
+  --main-color: rgb(0, 0, 0);
   border-style: solid 1px #000 !important;
 }
 
