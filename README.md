@@ -9,13 +9,17 @@ A project to directly embed an Algorand React app in standard html via `<script>
     <link href="https://unpkg.com/algo-pay@0.1.3/build/static/css/algopay.css" rel="stylesheet">
     <div id="root"></div>
     <script>
-        localStorage.setItem("index", 0);
-        localStorage.setItem("amount", 0);
-        localStorage.setItem("note", "Your note goes here.");
-        localStorage.setItem("recipient", "LMKFQIPL3VQCZGGFK4WZ7FPCQWLNBTJQ3UWSTA7D7QZSPJTZQKTDVT7WG4");
+        window.details = {
+            amount: 1, // in smallest unit (i.e. microAlgos)
+            note: "Hello World!",
+            index: 0, // Asset index number, otherwise, enter 0 for Algorand
+            recipient: "LMKFQIPL3VQCZGGFK4WZ7FPCQWLNBTJQ3UWSTA7D7QZSPJTZQKTDVT7WG4"
+        }
     </script>
     <script src="https://unpkg.com/algo-pay@0.1.3/build/static/algopay.js"></script>
 ```
+
+NOTE: Ensure that the version codes in the CSS and JavaScript `src=` urls match the latest version code of this project.
 
 ## Modifying the widget
 
@@ -26,5 +30,27 @@ npm run start
 npm run build
 ```
 
-After building the app, navigate to the `build/static/css` folder and remove the css filename hashes if desired. Upload the `build` folder to your site and edit the `src` and `href` base urls to point to your site. 
+After building the app, navigate to the `build/static/css` folder and remove the css filename hashes if desired. Upload the `build` folder to your site and edit the `src` and `href` base urls for the JavaScript and CSS to point to your site. 
+
+## Testing the widget
+
+After building the app, navigate to build/index.html. In your code editor, select and format the html for ease of editing. Above the `<script>` tag for the algopay.js file, add the following lines: 
+
+```jsx
+    <script>
+        window.details = {
+            amount: 1, // in smallest unit (i.e. microAlgos)
+            note: "Hello World!",
+            index: 0, // Asset index number, otherwise, enter 0 for Algorand
+            recipient: "LMKFQIPL3VQCZGGFK4WZ7FPCQWLNBTJQ3UWSTA7D7QZSPJTZQKTDVT7WG4"
+        }
+    </script>
+```
+
+Change the variables of the window object `details` to customize your test widget. After saving changes, from the root of the algo-pay folder, run:
+
+```bash
+serve build
+```
+
 
