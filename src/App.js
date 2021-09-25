@@ -24,10 +24,10 @@ const myAlgoWallet = Pipeline.init();
 const messageTwo = "Please sign & send transaction";
 const headingTwo = "Complete Transfer";
 
-var index = parseInt(localStorage.getItem("index"));
-var amount = localStorage.getItem("amount");
-var note = localStorage.getItem("note");
-var recipient = localStorage.getItem("recipient");
+var index = parseInt(window.details.index);
+var amount = window.details.amount;
+var note = window.details.note;
+var recipient = window.details.recipient;
 class AlgoPay extends Component {
 
   constructor(props) {
