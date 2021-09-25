@@ -97,6 +97,9 @@ class AlgoPay extends Component {
           alert("Error occured  " + url2);
         });
     }
+    else{
+      this.setState({stateAmount: amount / 1000000});
+    }
   }
   componentDidMount() {
     this.setState({stateAmount: amount})
