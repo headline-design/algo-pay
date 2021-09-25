@@ -28,5 +28,27 @@ npm run start
 npm run build
 ```
 
-After building the app, navigate to the `build/static/css` folder and remove the css filename hashes if desired. Upload the `build` folder to your site and edit the `src` and `href` base urls to point to your site. 
+After building the app, navigate to the `build/static/css` folder and remove the css filename hashes if desired. Upload the `build` folder to your site and edit the `src` and `href` base urls for the JavaScript and CSS to point to your site. 
+
+## Testing the widget
+
+After building the app, navigate to build/index.html. In your code editor, select and format the html for ease of editing. Above the `<script>` tag for the algopay.js file, add the following lines: 
+
+```jsx
+    <script>
+        window.details = {
+            amount: 1, // in smallest unit (i.e. microAlgos)
+            note: "Hello World!",
+            index: 0, // Asset index number, otherwise, enter 0 for Algorand
+            recipient: "LMKFQIPL3VQCZGGFK4WZ7FPCQWLNBTJQ3UWSTA7D7QZSPJTZQKTDVT7WG4"
+        }
+    </script>
+```
+
+Change the variables of the window object `details` to customize your test widget. After saving changes, from the root of the algo-pay folder, run:
+
+```bash
+serve build
+```
+
 
