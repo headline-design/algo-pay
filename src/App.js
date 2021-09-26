@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './App.css';
-import 'react-dropdown/style.css';
-import ChartData from './ChartData.js'
+
 
 import {
   Pipeline,
@@ -55,7 +54,6 @@ class AlgoPay extends Component {
       recipient: "",
       con_status_text: "Status: Not Connected",
       address: "",
-      ChartData,
       isOpen: false,
       completed: false,
       shhh: true,

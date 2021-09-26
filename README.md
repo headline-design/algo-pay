@@ -6,7 +6,7 @@ A project to directly embed an Algorand React app in standard html via `<script>
 
 ```html
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <link href="https://unpkg.com/algo-pay@0.1.3/build/static/css/algopay.css" rel="stylesheet">
+    <link href="https://unpkg.com/algo-pay@0.1.5/build/static/css/algopay.css" rel="stylesheet">
     <div id="root"></div>
     <script>
         window.details = {
@@ -16,7 +16,7 @@ A project to directly embed an Algorand React app in standard html via `<script>
             recipient: "LMKFQIPL3VQCZGGFK4WZ7FPCQWLNBTJQ3UWSTA7D7QZSPJTZQKTDVT7WG4"
         }
     </script>
-    <script src="https://unpkg.com/algo-pay@0.1.3/build/static/algopay.js"></script>
+    <script src="https://unpkg.com/algo-pay@0.1.5/build/static/algopay.js"></script>
 ```
 
 NOTE: Ensure that the version codes in the CSS and JavaScript `src=` urls match the latest version code of this project.
