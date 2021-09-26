@@ -6,7 +6,7 @@ A project to directly embed an Algorand React app in standard html via `<script>
 
 ```html
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <link href="https://unpkg.com/algo-pay@0.1.5/build/static/css/algopay.css" rel="stylesheet">
+    <link href="https://unpkg.com/algo-pay@0.1.6/build/static/css/algopay.css" rel="stylesheet">
     <div id="root"></div>
     <script>
         window.details = {
