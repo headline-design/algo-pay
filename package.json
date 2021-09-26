@@ -1,6 +1,6 @@
 {
   "name": "algo-pay",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

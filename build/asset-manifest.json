@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.ada0375f.css",
+    "main.css": "./static/css/main.cc586c0d.css",
     "main.js": "./static/algopay.js",
     "main.js.map": "./static/algopay.js.map",
     "static/js/1.75d670f5.chunk.js": "./static/js/1.75d670f5.chunk.js",
     "static/js/1.75d670f5.chunk.js.map": "./static/js/1.75d670f5.chunk.js.map",
     "index.html": "./index.html",
     "static/algopay.js.LICENSE.txt": "./static/algopay.js.LICENSE.txt",
-    "static/css/main.ada0375f.css.map": "./static/css/main.ada0375f.css.map"
+    "static/css/main.cc586c0d.css.map": "./static/css/main.cc586c0d.css.map"
   },
   "entrypoints": [
-    "static/css/main.ada0375f.css",
+    "static/css/main.cc586c0d.css",
     "static/algopay.js"
   ]
 }
