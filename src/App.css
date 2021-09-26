@@ -140,8 +140,6 @@ background-color: #cccccc !important;
 }
 
 .algo-btn-solid {
-  color: #3F3D4B;
-  background-color: transparent;
   width: 350px !important ;
   border-style: solid ;
   border-width: 1px ;
@@ -218,4 +216,24 @@ a.footer-link:hover {
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.higher-header-container {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #E8E8E8;
+}
+
+.pipeline-h3 {
+  padding-top: 0px;
+  margin-top: 0px;
 }
