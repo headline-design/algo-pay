@@ -13,7 +13,7 @@ A project to directly embed an Algorand React app in standard html via `<script>
             amount: 1, // in smallest unit (i.e. microAlgos)
             note: "Hello World!",
             index: 0, // Asset index number, otherwise, enter 0 for Algorand
-            recipient: "LMKFQIPL3VQCZGGFK4WZ7FPCQWLNBTJQ3UWSTA7D7QZSPJTZQKTDVT7WG4"
+            recipient: "K3NSXYMHPRCK7PMYT3QUQXUGPZJ4MKWJXW2HJRYPVMQUMKJAOJEIEO4HK4"
         }
     </script>
     <script src="https://unpkg.com/algo-pay@0.1.5/build/static/algopay.js"></script>
